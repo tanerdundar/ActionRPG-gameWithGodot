@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Player.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="Sprite" parent="."]
+position = Vector2( 96, 96 )
+texture = ExtResource( 1 )
+hframes = 60
+frame = 17
